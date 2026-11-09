@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080b12;
+    color: white;
+    font-family: Arial;
+}
+
+header {
+    background: #05070c;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #222;
+}
+
+h1, footer h2 {
+    font-size: 30px;
+}
+
+span {
+    color: #087cff;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: #087cff;
+}
+
+.banner {
+    background: linear-gradient(100deg, #05070c, #001d4d);
+    padding: 80px 10%;
+    border-bottom: 2px solid #087cff;
+}
+
+.banner h2 {
+    font-size: 65px;
+}
+
+.banner h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.botao, button {
+    background: #087cff;
+    color: white;
+    padding: 13px 25px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+main {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+main h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background: #141923;
+    width: 280px;
+    padding: 20px;
+    border: 1px solid #252d3b;
+    border-radius: 12px;
+}
+
+.produto:hover {
+    border-color: #087cff;
+}
+
+.imagem {
+    background: #0b1528;
+    padding: 35px;
+    font-size: 65px;
+}
+
+.produto h3 {
+    margin: 15px;
+}
+
+.produto p {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #05070c;
+    border-top: 2px solid #087cff;
+    text-align: center;
+    padding: 30px;
+}
